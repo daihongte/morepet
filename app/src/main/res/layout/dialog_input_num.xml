@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:background="@drawable/shape_dialog">
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="请输入设备序列号"
+        android:textSize="12dp"
+        android:textColor="#000"
+        android:background="@drawable/ic_input"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_below="@+id/et_num"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:text="确定"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:background="@drawable/select_blue_button"/>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dlc.morepet.ui.MainActivity">
+
+
+
+    <WebView
+        android:id="@+id/wb_mwv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="#FFFFFF"-->
+        <!--&gt;-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="login"-->
+            <!--android:text="微信登录"/>-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
